@@ -1,0 +1,46 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2026 17:56:28.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.117
+16-May-2026 17:56:28.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 18:21:16 UTC
+16-May-2026 17:56:28.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.117.0
+16-May-2026 17:56:28.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-May-2026 17:56:28.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1.170-213.321.amzn2023.x86_64
+16-May-2026 17:56:28.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2026 17:56:28.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-amazon-corretto.x86_64
+16-May-2026 17:56:28.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.11+10-LTS
+16-May-2026 17:56:28.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+16-May-2026 17:56:28.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /root/myprojectjenkins1/apache-tomcat-9.0.117
+16-May-2026 17:56:28.320 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /root/myprojectjenkins1/apache-tomcat-9.0.117
+16-May-2026 17:56:28.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-May-2026 17:56:28.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+16-May-2026 17:56:28.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/root/myprojectjenkins1/apache-tomcat-9.0.117/conf/logging.properties
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2026 17:56:28.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-May-2026 17:56:28.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2026 17:56:28.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2026 17:56:28.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/root/myprojectjenkins1/apache-tomcat-9.0.117
+16-May-2026 17:56:28.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/root/myprojectjenkins1/apache-tomcat-9.0.117
+16-May-2026 17:56:28.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/root/myprojectjenkins1/apache-tomcat-9.0.117/temp
+16-May-2026 17:56:28.341 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-May-2026 17:56:28.936 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2026 17:56:28.991 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [998] milliseconds
+16-May-2026 17:56:29.063 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2026 17:56:29.063 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.117]
+16-May-2026 17:56:29.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/ROOT]
+16-May-2026 17:56:29.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/ROOT] has finished in [426] ms
+16-May-2026 17:56:29.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/docs]
+16-May-2026 17:56:29.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/docs] has finished in [58] ms
+16-May-2026 17:56:29.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/examples]
+16-May-2026 17:56:29.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/examples] has finished in [392] ms
+16-May-2026 17:56:29.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/host-manager]
+16-May-2026 17:56:30.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/host-manager] has finished in [48] ms
+16-May-2026 17:56:30.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/manager]
+16-May-2026 17:56:30.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/root/myprojectjenkins1/apache-tomcat-9.0.117/webapps/manager] has finished in [40] ms
+16-May-2026 17:56:30.053 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2026 17:56:30.069 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1075] milliseconds
